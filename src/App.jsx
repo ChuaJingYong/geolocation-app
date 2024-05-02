@@ -29,8 +29,9 @@ function App(){
 
   return(
     <>
-      <h1>Geolocation App</h1>
-      <p>Latitude: {geoLocation.latitude}, Longtigude: {geoLocation.longtigude}</p>
+      <h1>GeoTrack App</h1>
+      <h3>A simple app to test and get geo location</h3>
+      <p><strong>Latitude:</strong> {geoLocation.latitude}, <strong>Longtigude:</strong> {geoLocation.longtigude}</p>
     </>
   )
 }
